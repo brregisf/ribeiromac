@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    max-width: 100%;
+}
+
+:root {
+ --cor1: #9d0a0a;
+}
+
+body {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    margin-bottom: 20px;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    top: 0;
+    border-bottom: solid 3px;
+    border-color: var(--cor1);
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 0 0 10px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: large;
+    position: relative;
+}
+
+nav a::after {
+	content: " ";
+	width: 0%;
+	height: 3px;
+	background-color: var(--cor1);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	transition: 0.5s ease-in-out;
+}
+
+
+nav a:hover::after {
+	width: 100%;
+}
+
+.logo {
+    width: 10%;
+}
+
+.swhite {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.sred1 {
+    width: 70%;
+    margin: 7% 10% 30px 15%;
+    background-color: var(--cor1);
+    border-radius: 20px;
+    display: flex;
+}
+
+.sred1 img {
+    width: 35%;
+    border-radius: 20px;
+} 
+
+.sred {
+    width: 70%;
+    margin: 0 10% 30px 15%;
+    background-color: var(--cor1);
+    border-radius: 20px;
+    display: flex;
+}
+
+.sred img {
+    width: 35%;
+    border-radius: 20px;
+}
+
+.espaco {
+    width: 70%;
+    margin: 0 10% 30px 15%;
+    box-shadow: 10px black;
+    display: flex;
+}
+
+.imgtest {
+    width: 35%;
+}
+
+.imgofi {
+    width: 35%;
+    margin-left: 0;
+}
+
+.imgemp {
+    width: 35%;
+    margin-left: 0;
+}
+
+.paragrafo {
+    margin: 10px;
+    color: white;
+}
+
+.paragrafo2 {
+    margin: 0 30% 0 6%
+}
+
+.paragrafo2 h1 {
+    width: 100%;
+    margin: 0 0 5px 2%;
+    font-size: xx-large;
+}
+
+.paragrafo h1 {
+    font-size: xx-large;
+    margin: 0 0 5px 4px;
+}
+
+.titulo {
+    margin: 10px 0 0 2%;
+    font-size: xx-large;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    border-top: solid;
+    border-color: var(--cor1);
+}
+
+footer p {
+    font-size: 10px;
+}
+
+.logoft {
+    width: 5%;
+}
