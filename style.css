@@ -11,6 +11,7 @@
 body {
     font-family: "Poppins", Arial, Helvetica, sans-serif;
     overflow-x: hidden;
+    background-color: #CCCC;
 }
 
 header {
@@ -63,14 +64,14 @@ nav a:hover::after {
 }
 
 .swhite {
-    width: 100%;
-    margin-bottom: 20px;
+    width: 70%;
+    margin: 0 10% 30px 15%;
     display: flex;
 }
 
 .sred1 {
-    width: 70%;
-    margin: 7% 10% 30px 15%;
+    width: 75%;
+    margin: 7% 10% 30px 13%;
     background-color: var(--cor1);
     border-radius: 20px;
     display: flex;
@@ -82,10 +83,11 @@ nav a:hover::after {
 } 
 
 .sred {
-    width: 70%;
-    margin: 0 10% 30px 15%;
+    width: 75%;
+    margin: 0 10% 30px 13%;
     background-color: var(--cor1);
     border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     display: flex;
 }
 
@@ -97,31 +99,43 @@ nav a:hover::after {
 .espaco {
     width: 70%;
     margin: 0 10% 30px 15%;
-    box-shadow: 10px black;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
     display: flex;
+    background-color: #fff;
 }
 
 .imgtest {
     width: 35%;
+    object-fit: cover;
 }
 
 .imgofi {
     width: 35%;
     margin-left: 0;
+    object-fit: cover;
 }
 
 .imgemp {
     width: 35%;
     margin-left: 0;
+    object-fit: cover;
 }
 
 .paragrafo {
+    padding: 10px;
     margin: 10px;
     color: white;
+    line-height: 1.5;
+    font-weight: 600;
 }
 
 .paragrafo2 {
-    margin: 0 30% 0 6%
+    width: 100%;
+    padding: 10px;
+    margin: 0 30% 0 6%;
+    line-height: 1.5;
+    font-weight: 600;
 }
 
 .paragrafo2 h1 {
@@ -145,6 +159,7 @@ footer {
     padding: 20px 0;
     border-top: solid;
     border-color: var(--cor1);
+    background-color: #fff;
 }
 
 footer p {
