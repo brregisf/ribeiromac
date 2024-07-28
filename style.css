@@ -11,7 +11,7 @@
 body {
     font-family: "Poppins", Arial, Helvetica, sans-serif;
     overflow-x: hidden;
-    background-color: #CCCC;
+    background-color: #fff;
 }
 
 header {
@@ -73,6 +73,7 @@ nav a:hover::after {
     width: 75%;
     margin: 7% 10% 30px 13%;
     background-color: var(--cor1);
+    box-shadow: 0 0 10px black;
     border-radius: 20px;
     display: flex;
 }
@@ -87,7 +88,7 @@ nav a:hover::after {
     margin: 0 10% 30px 13%;
     background-color: var(--cor1);
     border-radius: 20px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px black;
     display: flex;
 }
 
@@ -99,10 +100,10 @@ nav a:hover::after {
 .espaco {
     width: 70%;
     margin: 0 10% 30px 15%;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px black;
     border-radius: 20px;
     display: flex;
-    background-color: #fff;
+    background-color: #CCCC;
 }
 
 .imgtest {
@@ -150,8 +151,11 @@ nav a:hover::after {
 }
 
 .titulo {
-    margin: 10px 0 0 2%;
+    padding: 0 0 2px 0;
+    margin: 10px 0 -3px 2%;
     font-size: xx-large;
+    border-bottom: solid 4px;
+    border-color: var(--cor1);
 }
 
 footer {
