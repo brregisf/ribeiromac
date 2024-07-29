@@ -6,19 +6,22 @@
 
 :root {
  --cor1: #9d0a0a;
+ --cor2: #fff;
+ --corh: #1f1f1f;
+ --corbg: #3d3c3c;
 }
 
 body {
     font-family: "Poppins", Arial, Helvetica, sans-serif;
     overflow-x: hidden;
-    background-color: #fff;
+    background-color: var(--corbg);
 }
 
 header {
     margin-bottom: 20px;
     position: fixed;
     width: 100%;
-    background-color: #fff;
+    background-color: var(--corh);
     top: 0;
     border-bottom: solid 3px;
     border-color: var(--cor1);
@@ -36,7 +39,7 @@ nav li {
 }
 
 nav a {
-    color: black;
+    color: var(--cor2);
     text-decoration: none;
     font-weight: 600;
     font-size: large;
@@ -103,7 +106,7 @@ nav a:hover::after {
     box-shadow: 0 0 10px black;
     border-radius: 20px;
     display: flex;
-    background-color: #CCCC;
+    background-color: #777777;
 }
 
 .imgtest {
@@ -126,7 +129,7 @@ nav a:hover::after {
 .paragrafo {
     padding: 10px;
     margin: 10px;
-    color: white;
+    color: var(--cor2);
     line-height: 1.5;
     font-weight: 600;
 }
@@ -135,6 +138,7 @@ nav a:hover::after {
     width: 100%;
     padding: 10px;
     margin: 0 30% 0 6%;
+    color: var(--cor2);
     line-height: 1.5;
     font-weight: 600;
 }
@@ -158,16 +162,21 @@ nav a:hover::after {
     border-color: var(--cor1);
 }
 
+.titulo h1 {
+    color: var(--cor2);
+}
+
 footer {
     text-align: center;
     padding: 20px 0;
     border-top: solid;
     border-color: var(--cor1);
-    background-color: #fff;
+    background-color: var(--corh);
 }
 
 footer p {
     font-size: 10px;
+    color: var(--cor2);
 }
 
 .logoft {
