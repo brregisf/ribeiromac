@@ -1,0 +1,6 @@
+ScrollReveal().reveal("header", {origin: 'top', distance: '15px'})
+ScrollReveal().reveal("nav", {origin: 'top', distance: '15px'})
+ScrollReveal().reveal(".logo", {origin: 'top', distance: '15px'})
+ScrollReveal().reveal(".sred1, .sred, .espaco, .desc", {origin: 'left', distance: '30px'})
+ScrollReveal().reveal(".swhite, .certificado, footer", {distance: '15px'})
+ScrollReveal().reveal(".box1, .box2, .box3", {distance: '30px'})

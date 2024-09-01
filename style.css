@@ -22,11 +22,12 @@ section {
 
 body {
     font-family: "Poppins", Arial, Helvetica, sans-serif;
-    overflow-x: hidden;
+    overflow: hidden;
     background-color: var(--corbg);
 }
 
 header {
+    z-index: 100;
     position: fixed;
     width: 100%;
     background-color: var(--corh);
@@ -43,7 +44,7 @@ header {
 
 nav li {
     display: inline-block;
-    margin: 0 0 0 10px;
+    margin: 0 0 0 15px;
 }
 
 nav a {
@@ -72,6 +73,12 @@ nav a:hover::after {
 
 .logo {
     width: 10%;
+}
+
+.desc {
+    margin: -23px 10% 30px 14%;
+    font-size: 10px;
+    color: var(--cor2);
 }
 
 .swhite {
@@ -152,7 +159,7 @@ nav a:hover::after {
 .paragrafo2 {
     width: 100%;
     padding: 10px;
-    margin: 0 30% 0 6%;
+    margin: 0 10% 0 6%;
     color: var(--cor2);
     line-height: 1.5;
     font-weight: 600;
@@ -178,6 +185,58 @@ nav a:hover::after {
     color: var(--cor2);
 }
 
+.titulo2 {
+    padding: 0 0 2px 0;
+    margin: 10px 0 -3px 2%;
+    font-size: xx-large;
+    border-bottom: solid 4px;
+    border-color: var(--cor1);
+}
+
+.titulo2 h1 {
+    color: var(--cor2);
+}
+
+.titulo3 {
+    width: 74%;
+    padding: 0 0 2px 0;
+    margin: 0 0 2% 13%;
+    border-bottom: solid 4px;
+    border-color: var(--cor1);
+}
+
+.titulo3 h1 {
+    color: var(--cor2);
+    font-size: xx-large;
+}
+
+.boxs {
+    margin-left: 6%;
+    margin-bottom: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1, .box2, .box3 {
+    width: 25%;
+    margin-right: 5%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.box1 img, .box2 img, .box3 img {
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+}
+
+.certificado {
+    width: 60%;
+    margin: -10px 0 2% 20%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+
 footer {
     text-align: center;
     padding: 20px 0;
@@ -188,7 +247,13 @@ footer {
 
 footer p {
     font-size: 10px;
+    margin-bottom: 6px;
     color: var(--cor2);
+}
+
+.adress {
+    font-size: 12px;
+    margin-top: 5px;
 }
 
 .logoft {

@@ -14,6 +14,13 @@
         width: 25%;
     }
 
+    .desc {
+        width: 85%;
+        margin: -23px 10% 30px 11%;
+        font-size: smaller;
+        color: var(--cor2);
+    }
+
     .sred1 {
         width: 85%;
         margin: 15% 5% 30px 8%;
@@ -56,7 +63,7 @@
 
     .espaco {
         width: 75%;
-        margin: 0 10% 30px 13%;
+        margin: 0 10% 30px 11%;
         box-shadow: 0 0 10px black;
         border-radius: 20px;
         display: flex;
@@ -66,7 +73,7 @@
     .paragrafo2 {
         width: 100%;
         padding: 10px;
-        margin: 0 30% 0 6%;
+        margin: 0 10% 0 6%;
         font-size: calc( 16px + (24 - 16) * (100vw - 400px) / (800 - 400) );
         color: var(--cor2);
         line-height: 1.5;
@@ -77,6 +84,24 @@
         width: 100%;
         margin: 0 0 5px 2%;
         font-size: x-large;
+    }
+
+    .boxs {
+        display: block;
+    }
+
+    .box1, .box2, .box3 {
+        width: 60%;
+        margin: 0 0 4% 17%;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    .certificado {
+        width: 80%;
+        margin: -10px 0 2% 10%;
+        border-radius: 10px;
+        box-shadow: 0 0 10px black;
     }
 
     .logoft {
@@ -103,6 +128,13 @@
         line-height: 1.5;
     }
 
+    .desc {
+        width: 80%;
+        margin: -23px 10% 30px 11%;
+        font-size: smaller;
+        color: var(--cor2);
+    }
+    
     .sred1 {
         width: 85%;
         margin: 30% 5% 30px 8%;
@@ -155,7 +187,7 @@
     .paragrafo2 {
         width: 100%;
         padding: 10px;
-        margin: 0 30% 0 6%;
+        margin: 0 10% 0 6%;
         font-size: calc( 16px + (24 - 16) * (100vw - 400px) / (800 - 400) );
         color: var(--cor2);
         line-height: 1.5;
@@ -166,6 +198,24 @@
         width: 100%;
         margin: 0 0 5px 2%;
         font-size: x-large;
+    }
+
+    .boxs {
+        display: block;
+    }
+
+    .box1, .box2, .box3 {
+        width: 60%;
+        margin: 0 0 4% 17%;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    .certificado {
+        width: 80%;
+        margin: -10px 0 2% 10%;
+        border-radius: 10px;
+        box-shadow: 0 0 10px black;
     }
 
     .logoft {
